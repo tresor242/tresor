@@ -1,0 +1,75 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Akronim', cursive;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	list-style: none;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/**********/
+
+nav{
+
+	overflow: hidden;
+	width: 100%;
+	background-color: #2A690B;
+	position: fixed;
+	opacity: 0.9;
+}
+
+nav li{
+	float: right;
+	font-size: 2em;
+}
+
+nav li a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+
+
+#logo{
+	font-family: 'Akronim', cursive;
+	font-weight: bold;
+	float: left;
+}
+
+.services{
+	font-family: algerian;
+	padding-top: 150px;
+	background-color: #675B48;
+	height: 1000px;
+}
+
+.services h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.table{
+	margin-top: 100px;
+	color: black;
+	background-color: white;
+	font-size: 50px;
+}
+
+p{
+	float: left;
+	font-size: 25px;
+}

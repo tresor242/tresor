@@ -1,0 +1,114 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Akronim', cursive;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	list-style: none;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/**********/
+
+nav{
+
+	overflow: hidden;
+	width: 100%;
+	background-color: #2A690B;
+	position: fixed;
+	opacity: 0.9;
+}
+
+nav li{
+	float: right;
+	font-size: 2em;
+}
+
+nav li a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+}
+
+
+#logo{
+	font-family: 'Akronim', cursive;
+	font-weight: bold;
+	float: left;
+}
+
+.about{
+	padding-top: 100px;
+}
+
+.about .title1{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline #2A690B;
+	font-family: algerian;
+}
+.about .about-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 6
+	0px;
+}
+.about .div-left{
+	width: 45%;
+}
+.about .div-right{
+	width: 55%;
+}
+
+.about .div-left img{
+	height: 450px;
+	width: 400px;
+	border-radius: 6px;
+
+}
+.about .div-right .text{
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom:10px;
+	font-family: algerian;
+}
+.about .div-right .text span{
+	color: #2A690B;
+	font-family: algerian;
+}
+.about .div-right p{
+	font-size: 20px;
+	text-align: justify;
+	font-family: #2A690B;
+}
+.about .about-content .button-two{
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 40px;
+	font-weight: 200;
+	background-color: #2A690B;
+	color: white;
+	border:2px solid #2A690B;
+	padding: 10px 40px;
+	border-radius: 20px;
+}
+.about .about-content .button-two:hover{
+	color: #2A690B;
+	background:none;
+}
